@@ -1,0 +1,49 @@
+1.(50 Puntos) Modelamiento BPMN - Haga los diagramas BPMN del proceso o los procesos.
+
+El Marketplace de una importante empresa de distribución a nivel nacional, es un portal transaccional en el cual las empresas proveedoras (La Muñeca, Arroz Roa, Huevos Kikes) están registradas y ofertan sus productos a empresas comercializadoras (Éxito, Jumbo, Carulla) las cuales se encuentran registradas y realizan compras de los productos ofrecidos en el portal.
+
+A continuación se detalla el proceso de las empresas proveedoras en el Marketplace:
+
+1.	La empresa proveedora contacta a un empleado de la entidad con el rol de Analista de Ventas, en donde se hace la solicitud de registro y matrícula de uno o varios productos.
+
+2.	El Analista de Ventas registra un formulario de matrícula y registro y formaliza la solicitud por parte de la empresa proveedora indicando los productos que se desean ofertar en el portal.
+
+3.	El formulario, junto con otros documentos anexos pasan al Ejecutivo de Ventas, el cual se encarga de radicar en el sistema la solicitud de registro y matrícula.
+
+4.	Una vez radicada la solicitud, un Analista de riesgos realiza manualmente una serie de validaciones en las centrales de riesgo:
+a.	Validar la existencia de la empresa contra la base de datos de Confecámaras
+b.	Validar que la empresa no esté en mora con ninguna otra empresa ni entidad del estado
+c.	Validar que el NIT de la empresa no se encuentre en la lista Clinton o lista de empresas investigadas por lavado de dinero
+
+5.	En caso que las validaciones del analista no sean exitosas, se envía un correo electrónico indicándole a la empresa que su solicitud ha sido rechazada y disculpándonos por no poder aceptar su  solicitud. 
+
+6.	En caso que las validaciones sea exitosas, el Director de Marketplace realiza una segunda validación evaluando:
+a.	Posición y reconocimiento de la empresa proveedora en el medio.
+b.	Capacidad de endeudamiento de la empresa.
+c.	Llama a su socio de la compañía para validar si está de acuerdo con esta empresa.
+
+7.	En caso que las validaciones del director no sean exitosas, el caso vuelve al analista de ventas quien debe se enviar el correo electrónico indicándole a la empresa que su solicitud ha sido rechazada y disculpándonos por no poder aceptar su  solicitud. 
+
+8.	En caso que los dos filtros pasen, el analista de ventas envía un correo electrónico notificándole a la empresa proveedora que su solicitud ha sido aprobada y se encuentra disponible para realizar transacciones con el Marketplace; y en paralelo crea a la empresa en la base de datos de Martketplace. (Non-anonymous question  )
+Your name and file upload actions will be recorded in SharePoint and visible to the form owner.
+(50 Points)
+File number limit: 2Single file size limit: 10MBAllowed file types: Word, PPT, PDF, Image
+2.(50 Puntos) Caso EscuelaIT – Modelamiento BPMN
+
+EscuelaIT es una compañía de construcción especializada en trabajo público (carreteras, puentes, túneles, etc). Dentro de EscuelaIT, usualmente sucede que los ingenieros que trabajan en el sitio de construcción (llamados ingenieros de sitio) necesitan una pieza de equipo, tales como un tractor, una excavadora, un bulldozer, bomba de agua, etc. EscuelaIT prosee muy pocos equipos y, en cambio, renta la mayoría de sus equipos a proveedores especializados.
+
+El proceso de negocio para rentar un equipo va de la siguiente forma:
+
+Cuando un ingeniero de sitio necesita rentar una pieza de equipo, llena una forma llamada “Solicitud de Renta de Equipo” y envía esta solicitud por e-mail a uno de los empleados en el depósito de la compañía. El empleado del depósito recibe la solicitud y, después de consultar los catálogos de los proveedores de equipamiento, selecciona el equipamiento de mayor costo-efectividad que cumpla con la solicitud. 
+
+Posteriormente, el empleado revisa la disponibilidad del equipo seleccionado con el proveedor por medio de teléfono o e-mail. Algunas veces la opción seleccionada no está disponible y el empleado tiene que seleccionar una pieza alternativa de equipamiento y validar su disponibilidad con el proveedor correspondiente.
+
+Una vez el empleado ha encontrado una pieza de equipamiento adecuada para la renta, adiciona los detalles de los equipamientos seleccionados a la solicitud de renta. Todas las solicitudes deben ser aprobadas por el ingeniero de trabajo, quien también trabaja en el depósito. En algunos casos, el ingeniero de trabajo rechaza la solicitud de renta y el proceso finaliza, el ingeniero de sitio debería volver a iniciar el proceso desde cero.
+
+Cuando un ingeniero de trabajo aprueba la solicitud de renta, el empleado envía una confirmación al proveedor. Esta confirmación incluye una orden de compra (PO – Purchase Order) por rentar el equipo. La PO es producida por el Sistema de información financiera EscuelaIT utilizando la información ingresada por el empleado. El empleado graba el compromiso de la renta del equipo en una hoja de Excel que mantienen para el propósito de rastrear las rentas de equipos.
+
+A su debido tiempo, el proveedor entrega el equipo rentado al sitio de construcción. El ingeniero de sitio inspecciona el equipo. Si todo está en orden, se acepta el compromiso de renta y el equipo es puesto a funcionar. 
+
+Cuando el periodo de renta expira, el proveedor viene a recoger el equipo. Algunas veces, el ingeniero de sitio solicita una extensión de periodo de renta, contactando al proveedor por e-mail o teléfono 1-2 días antes de recogerlo. El proveedor puede aceptar o rechazar esta solicitud.
+
+Después de haber sido recogido el equipo, el proveedor envía la factura al empleado por e-mail. En este punto, el empleado le pregunta al ingeniero de sitio la confirmación que el equipo fue rentado para el periodo indicado en la factura. El empleado también valida si los precios de renta indicados en la factura están de acuerdo con aquellos de la PO. Después de estas validaciones, el empleado envía la factura al departamento de finanzas y el departamento de finanzas paga la factura. (Non-anonymous question
